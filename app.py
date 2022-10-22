@@ -1,5 +1,6 @@
 from flask import Flask, request, g, render_template, redirect, session, flash
-
+from .gpt3 import setOpenai
+from .gptRunning import GPTRunning
 app = Flask(__name__, template_folder='templates')
 
 # configurate the folder for csv files that uploaded by users
