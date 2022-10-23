@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Button, Divider, TextField, Typography } from '@mui/material';
-import { setEnvironmentData } from 'worker_threads';
 
 let didInit = false;
 
